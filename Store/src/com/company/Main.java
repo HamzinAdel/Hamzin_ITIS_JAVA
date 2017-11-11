@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         ProductsDao dao = new ProductsDaoTxtImplementation();
-        dao.replace("хлеб","мясо");
-  }
+        dao.replace("хлеб", "мясо");
+    }
 }

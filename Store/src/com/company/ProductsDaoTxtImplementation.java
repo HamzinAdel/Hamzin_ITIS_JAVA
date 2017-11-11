@@ -43,7 +43,7 @@ public class ProductsDaoTxtImplementation implements ProductsDao {
             str[i] = br.readLine();
             if (str[i].equals(product)) {
                 str[i] = " ";
-            }
+        }
         }
         Writer writer = new FileWriter(file, false);
         BufferedWriter wr = new BufferedWriter(writer);
